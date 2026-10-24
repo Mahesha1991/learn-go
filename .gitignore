@@ -218,3 +218,59 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# =============================================================================
+# Go Build Artifacts & Caches
+# =============================================================================
+# Compiled binaries and build output directories
+/bin/
+/pkg/
+/out/
+
+# Go build cache directory
+$GOCACHE
+
+# Dependencies downloaded by Go modules (often placed in $GOPATH/pkg/mod,
+# but local build artifacts might need ignoring)
+# Note: go.mod and go.sum should ALWAYS be tracked.
+# If you are using tools like 'go mod download' to populate a local cache, ignore it.
+/vendor/
+
+# =============================================================================
+# Operating System Files
+# =============================================================================
+.DS_Store
+Thumbs.db
+
+# =============================================================================
+# IDE & Editor Configuration Files
+# =============================================================================
+# Visual Studio Code
+.vscode/
+
+# JetBrains IDEs (GoLand, IntelliJ, etc.)
+.idea/
+
+# Vim/Neovim
+*.swp
+
+# =============================================================================
+# Logs and Temporary Files
+# =============================================================================
+*.log
+tmp/
+temp/
+
+# =============================================================================
+# Docker & Containerization
+# =============================================================================
+# Docker build cache
+.dockerignore
+
+# =============================================================================
+# Test Output
+# =============================================================================
+# Coverage reports
+/coverage/
+*.out
+
